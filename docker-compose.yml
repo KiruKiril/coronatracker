@@ -1,6 +1,6 @@
 version: "3"
 services:
   todoapp:
-    image: kirukiril/coronatracker:v1
+    build: .
     ports:
      - "3000:3000"
